@@ -1,0 +1,389 @@
+body {
+  background-color: #eb6333;
+}
+.greeting {
+  display: block;
+  margin: 10px auto;
+  max-width: 1300px;
+
+  background-color: rgb(41, 64, 137);
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(41, 64, 137, 0.4);
+  box-sizing: border-box;
+  transition: all 150ms ease-in-out;
+}
+.greeting:hover {
+  transform: scale(1.05);
+}
+.greeting h2 {
+  font-size: 38px;
+  font-family: "Stylish", sans-serif;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.greeting a {
+  color: #fff;
+}
+.container {
+  max-width: 1300px;
+  display: block;
+  margin: 10px auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/974/original/udon-noodles-2.png?1697024442");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  text-align: center;
+  padding: 100px 0;
+  font-family: "Stylish", sans-serif;
+}
+header h1 {
+  font-size: 88px;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+header h2 {
+  font-size: 48px;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+header h3 {
+  font-size: 28px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  color: white;
+}
+header a {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-family: "Zen Loop", cursive;
+}
+.btn {
+  color: #fff;
+  background-color: #294089;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding: 16px 24px;
+  text-transform: uppercase;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #294089;
+}
+.grid {
+  display: grid;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.grid-3-columns-different-size {
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+}
+section {
+  display: block;
+  margin: 10px auto;
+  max-width: 1300px;
+  padding: 40px 130px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+}
+section img {
+  max-width: 100%;
+}
+section h2 {
+  color: #294089;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: "Stylish", sans-serif;
+}
+section h3 {
+  margin: 0px 0px 15px 0px;
+  padding: 0;
+  font-size: 28px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  color: #eb6333;
+  opacity: 80%;
+  font-family: "Stylish", sans-serif;
+}
+section p {
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  color: #294089;
+  font-family: "Zen Loop", cursive;
+}
+.orange-text {
+  color: #eb6333;
+  font-weight: bold;
+}
+.card {
+  margin-top: 30px;
+  background-color: rgba(235, 100, 51, 0.2);
+  border-radius: 5px;
+  transition: all 150ms ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.card-body {
+  padding: 10px 18px;
+}
+.card-footer {
+  padding: 10px 32px;
+}
+.card a {
+  color: #294089;
+  background-color: #eb6333;
+  display: block;
+  font-family: "Zen Loop", cursive;
+  margin: 10px auto;
+  padding: 10px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 150ms ease-in-out;
+}
+.card a:hover {
+  background-color: #294089;
+  color: #eb6333;
+  cursor: pointer;
+}
+.music {
+  margin-top: 30px;
+}
+.gallery {
+  margin-top: 30px;
+}
+.gallery-embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 12px;
+  transition: all 150ms ease-in-out;
+}
+.gallery-embed:hover {
+  transform: scale(1.1);
+}
+section form {
+  padding: 30px 0px 10px 0px;
+  font-family: "Zen Loop", cursive;
+  font-size: 22px;
+  color: #294089;
+}
+section input {
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  border: 0.5px solid #294089;
+  box-shadow: 5px 5px 5px rgba(41, 64, 137, 0.2);
+}
+#submit {
+  background-color: #eb6333;
+  color: #294089;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-family: "Zen Loop", cursive;
+  font-size: 22px;
+  box-sizing: border-box;
+  transition: all 150ms ease-in-out;
+}
+#submit:hover {
+  background-color: #294089;
+  color: #eb6333;
+  cursor: pointer;
+}
+.email-link {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 10px 0;
+}
+.contact-paragraph {
+  text-align: center;
+  font-family: "Zen Loop", cursive;
+  font-size: 32px;
+  color: #294089;
+}
+.contact-link {
+  display: inline-block;
+  margin: 0 auto;
+  font-family: "Stylish", sans-serif;
+  font-weight: bold;
+  font-size: 42px;
+  text-decoration: none;
+  padding: 16px 24px;
+  background-color: #eb6333;
+  color: #294089;
+  font-family: "Zen Loop", cursive;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(41, 64, 137, 0.2);
+  transition: all 150ms ease-in-out;
+}
+.contact-link:hover {
+  background-color: #294089;
+  color: #eb6333;
+  cursor: pointer;
+}
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/974/original/udon-noodles-2.png?1697024442");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  text-align: left;
+  padding: 50px 0;
+}
+#footer-section {
+  padding: 40px 130px;
+}
+footer h4 {
+  font-family: "Stylish", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  font-family: "Zen Loop", cursive;
+  color: #fff;
+  font-size: 24px;
+}
+footer a {
+  color: #fff;
+}
+footer p {
+  font-family: "Zen Loop", cursive;
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+@media (max-width: 1300px) {
+  .greeting {
+    max-width: 95%;
+  }
+  header {
+    max-width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+  section {
+    max-width: 90%;
+    padding: 20px 60px;
+  }
+  #footer-section {
+    padding: 40px 60px;
+  }
+}
+@media (max-width: 900px) {
+  .greeting h2 {
+    font-size: 28px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 28px;
+  }
+  header h3 {
+    font-size: 22px;
+  }
+  header a {
+    font-size: 16px;
+  }
+  section h2 {
+    font-size: 28px;
+  }
+  section h3 {
+    font-size: 22px;
+  }
+  section h4 {
+    font-size: 18px;
+  }
+  section a {
+    font-size: 16px;
+  }
+  section p {
+    font-size: 18px;
+  }
+  section img {
+    max-width: 400px;
+  }
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+  }
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+  .grid-3-columns-different-size {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .card img {
+    aspect-ratio: 16/13 !important;
+  }
+  .music {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .gallery img {
+    max-width: 400px;
+  }
+  .gallery iframe {
+    max-width: 400px;
+  }
+  form {
+    display: block;
+    margin: 0 auto;
+    max-width: 45%;
+  }
+  .contact-paragraph {
+    font-size: 24px;
+  }
+  .contact-link {
+    font-size: 28px;
+  }
+}
